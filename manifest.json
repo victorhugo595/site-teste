@@ -1,0 +1,60 @@
+{
+  "name": "Mini Bucks",
+  "short_name": "MiniBucks",
+  "description": "Plataforma de vendas e gestão — pedidos, carrinhos, saldo e dashboard.",
+  "id": "/",
+  "start_url": "/?source=pwa",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#242424",
+  "theme_color": "#242424",
+  "orientation": "portrait",
+  "lang": "pt-BR",
+  "dir": "ltr",
+  "icons": [
+    {
+      "src": "/mobile_icons/192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/mobile_icons/512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/mobile_icons/192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/mobile_icons/512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Adicionar Saldo",
+      "short_name": "Saldo",
+      "url": "/saldo",
+      "icons": [
+        { "src": "/icons/shortcut-saldo.png", "sizes": "96x96", "type": "image/png" }
+      ]
+    },
+    {
+      "name": "Meus Pedidos",
+      "short_name": "Pedidos",
+      "url": "/my-orders",
+      "icons": [
+        { "src": "/icons/shortcut-orders.png", "sizes": "96x96", "type": "image/png" }
+      ]
+    }
+  ],
+  "categories": ["shopping", "business", "productivity"],
+  "prefer_related_applications": false
+}
